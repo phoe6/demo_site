@@ -218,7 +218,13 @@ body {
 }
 #notice .notice_box {
 	width: 80%;
-	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 30px auto;
+	list-style-type: none;
+	
 }
 .notice_box span {
 	display: inline-block;
@@ -402,8 +408,12 @@ body {
 		text-align: center;
 		font-size: 1rem;
 	}
+	.notice_box li {
+		padding: 20px;
+	}
 	.notice_box span, .notice_box a {
 		display: block;
+		
 	}
 	.concrete {
 		width: 94%;
